@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --brand-500: #1570ef;
+  --canvas: #f5f8fc;
+  --panel: #ffffff;
+  --panel-soft: #f6f9ff;
+  --panel-border: #dfe7f4;
+  --text-main: #182230;
+  --text-secondary: #475467;
+  --text-muted: #667085;
+}
+
+html,
+body,
+#app {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(21, 112, 239, 0.12), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(54, 215, 183, 0.1), transparent 28%),
+    linear-gradient(180deg, #f8fbff 0%, #f1f6ff 100%);
+  color: var(--text-main);
+  font-family: "IBM Plex Sans", "Microsoft YaHei UI", "PingFang SC", sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(27, 49, 58, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(27, 49, 58, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 80%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-shell {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-main {
+  min-height: 0;
+}
+
+.app-scroll {
+  min-height: 0;
+}

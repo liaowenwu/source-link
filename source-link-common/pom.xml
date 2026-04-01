@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>source-link</artifactId>
+        <groupId>org.dromara</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>source-link-common-bom</module>
+        <module>source-link-common-social</module>
+        <module>source-link-common-core</module>
+        <module>source-link-common-doc</module>
+        <module>source-link-common-excel</module>
+        <module>source-link-common-idempotent</module>
+        <module>source-link-common-job</module>
+        <module>source-link-common-log</module>
+        <module>source-link-common-mail</module>
+        <module>source-link-common-mybatis</module>
+        <module>source-link-common-oss</module>
+        <module>source-link-common-ratelimiter</module>
+        <module>source-link-common-redis</module>
+        <module>source-link-common-satoken</module>
+        <module>source-link-common-security</module>
+        <module>source-link-common-sms</module>
+        <module>source-link-common-web</module>
+        <module>source-link-common-translation</module>
+        <module>source-link-common-sensitive</module>
+        <module>source-link-common-json</module>
+        <module>source-link-common-encrypt</module>
+        <module>source-link-common-tenant</module>
+        <module>source-link-common-websocket</module>
+        <module>source-link-common-sse</module>
+    </modules>
+
+    <artifactId>source-link-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>
