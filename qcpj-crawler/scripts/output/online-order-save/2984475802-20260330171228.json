@@ -1,0 +1,63 @@
+{
+  "quotationId": "2984475802",
+  "request": {
+    "inquiryId": "B260330116156",
+    "quoteSupplierHeaderId": "2984475802",
+    "quotationSource": "PC",
+    "supplierCompanyId": "I4JOwcsNXfikbigFIMT",
+    "storeId": "WHDYST01",
+    "quoteUser": "5cbd21fa43cd690001de1091",
+    "saveStatus": "DRAFT",
+    "backUrl": "",
+    "supplierQuoteItemVoRequests": [
+      {
+        "resolveResultId": "de1effd9-a6ca-433b-b623-053ba8583c75",
+        "partsNum": "13 71 8 601 680",
+        "partsName": "谐振箱",
+        "quantity": 1,
+        "needPackage": "N",
+        "standardName": "谐振箱",
+        "categoryCode": "11892",
+        "standardNameCode": "118920001",
+        "decodeSource": "MASTER_DATA_AUTO",
+        "checked": true,
+        "quotedPriceItemId": "69ca3c8ddd9e9c00013408a8",
+        "userNeedsItemId": "69ca3c8edd9e9c0001d5f963",
+        "bargainFlag": "N",
+        "oldPartsNum": "13 71 8 601 680",
+        "partsBrandId": "BMW",
+        "partsBrandName": "宝马",
+        "attrValue": "",
+        "price": 1230.0,
+        "boxFee": 0.0,
+        "location": "",
+        "locationName": "",
+        "distributorStoreId": "",
+        "locationCountryId": "",
+        "villageGeoId": "",
+        "productType": "",
+        "arrivalTime": 1,
+        "remark": "",
+        "afterSaleSnapshot": "",
+        "partsBrandQuality": "ORIGINAL_CURRENCY",
+        "sellStatus": "DRAFT",
+        "productId": "21644482062773657610",
+        "recommend": 0,
+        "originalAssort": 0,
+        "appendQualityFlag": "",
+        "saveType": "ADD",
+        "whetherProductSet": "",
+        "productSetCode": "",
+        "productSetId": "",
+        "partRecommendingSuites": [],
+        "quotationResourceWebRequests": [],
+        "quotationProductIdentifierList": []
+      }
+    ]
+  },
+  "response": {
+    "code": 200,
+    "data": "DRAFT"
+  },
+  "fieldProbe": null
+}

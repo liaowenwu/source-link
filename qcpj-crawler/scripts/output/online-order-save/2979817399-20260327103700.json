@@ -1,0 +1,716 @@
+{
+  "quotationId": "2979817399",
+  "request": {
+    "inquiryId": "B260326120425",
+    "quoteSupplierHeaderId": "2979817399",
+    "quotationSource": "PC",
+    "supplierCompanyId": "",
+    "storeId": "WHDYST01",
+    "quoteUser": "5cbd21fa43cd690001de1091",
+    "saveStatus": "DRAFT",
+    "backUrl": "",
+    "supplierQuoteItemVoRequests": [
+      {
+        "resolveResultId": "69c50f39485d0300013522e7",
+        "partsNum": "A0009941903",
+        "partsName": "卡簧",
+        "quantity": 1,
+        "needPackage": "N",
+        "standardName": "卡簧",
+        "categoryCode": "11100",
+        "standardNameCode": "111000001",
+        "decodeSource": "MASTER_DATA_AUTO",
+        "checked": true,
+        "quotedPriceItemId": "69c50f47c4abb40001389368",
+        "userNeedsItemId": "69c5e62eb106ee0001fb6bb9",
+        "bargainFlag": "N",
+        "oldPartsNum": "A0009941903",
+        "partsBrandId": "BENZ",
+        "partsBrandName": "正厂",
+        "attrValue": "",
+        "price": 10.0,
+        "boxFee": 0.0,
+        "location": "CN_WHQKC",
+        "locationName": "武汉硚口仓",
+        "distributorStoreId": "",
+        "locationCountryId": "",
+        "villageGeoId": "",
+        "productType": "FINISHED_GOODS",
+        "arrivalTime": 1,
+        "remark": "matchMode=quality-name, brandPriority#1, regionPriority#2, priceAdvantageRate=5.0%",
+        "afterSaleSnapshot": "",
+        "partsBrandQuality": "ORIGINAL_CURRENCY",
+        "sellStatus": "DRAFT",
+        "productId": "",
+        "recommend": 0,
+        "originalAssort": 0,
+        "appendQualityFlag": "",
+        "saveType": "ADD",
+        "whetherProductSet": "",
+        "productSetCode": "",
+        "productSetId": "",
+        "partRecommendingSuites": [],
+        "quotationResourceWebRequests": [],
+        "quotationProductIdentifierList": []
+      },
+      {
+        "resolveResultId": "69c50f39485d0300013522e8",
+        "partsNum": "A0054669101",
+        "partsName": "助力泵",
+        "quantity": 1,
+        "needPackage": "N",
+        "standardName": "助力泵",
+        "categoryCode": "12194",
+        "standardNameCode": "121940001",
+        "decodeSource": "MASTER_DATA_AUTO",
+        "checked": true,
+        "quotedPriceItemId": "69c50f47c4abb40001389369",
+        "userNeedsItemId": "69c5e62eb106ee0001fb6bba",
+        "bargainFlag": "N",
+        "oldPartsNum": "A0054669101",
+        "partsBrandId": "BENZ",
+        "partsBrandName": "正厂",
+        "attrValue": "",
+        "price": 2600.0,
+        "boxFee": 0.0,
+        "location": "CN_WHQKC",
+        "locationName": "武汉硚口仓",
+        "distributorStoreId": "",
+        "locationCountryId": "",
+        "villageGeoId": "",
+        "productType": "DISPATCH_GOODS",
+        "arrivalTime": 1,
+        "remark": "matchMode=quality-name, brandPriority#1, regionPriority#2, priceAdvantageRate=5.0%",
+        "afterSaleSnapshot": "[{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保12个月\",\"display\":false,\"id\":\"1927054974027132928\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\"},{\"key\":\"CompensationPolicy\",\"value\":\"3\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔三\",\"display\":false,\"id\":\"1927054975633551360\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔三\"},{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4}]",
+        "partsBrandQuality": "ORIGINAL_CURRENCY",
+        "sellStatus": "DRAFT",
+        "productId": "",
+        "recommend": 0,
+        "originalAssort": 0,
+        "appendQualityFlag": "",
+        "saveType": "ADD",
+        "whetherProductSet": "",
+        "productSetCode": "",
+        "productSetId": "",
+        "partRecommendingSuites": [],
+        "quotationResourceWebRequests": [],
+        "quotationProductIdentifierList": []
+      }
+    ]
+  },
+  "response": {
+    "code": 200,
+    "data": "DRAFT"
+  },
+  "fieldProbe": {
+    "baselineSuccess": true,
+    "baselineResponse": {
+      "code": 200,
+      "data": "DRAFT"
+    },
+    "topLevelNoImpactFields": [
+      "quotationSource",
+      "supplierCompanyId",
+      "storeId",
+      "quoteUser",
+      "backUrl"
+    ],
+    "itemNoImpactFields": [
+      "partsNum",
+      "partsName",
+      "quantity",
+      "needPackage",
+      "standardName",
+      "categoryCode",
+      "standardNameCode",
+      "decodeSource",
+      "checked",
+      "quotedPriceItemId",
+      "userNeedsItemId",
+      "bargainFlag",
+      "partsBrandId",
+      "partsBrandName",
+      "attrValue",
+      "price",
+      "boxFee",
+      "location",
+      "locationName",
+      "distributorStoreId",
+      "locationCountryId",
+      "villageGeoId",
+      "productType",
+      "arrivalTime",
+      "remark",
+      "afterSaleSnapshot",
+      "partsBrandQuality",
+      "sellStatus",
+      "productId",
+      "recommend",
+      "originalAssort",
+      "appendQualityFlag",
+      "whetherProductSet",
+      "productSetCode",
+      "productSetId",
+      "partRecommendingSuites",
+      "quotationResourceWebRequests",
+      "quotationProductIdentifierList"
+    ],
+    "results": [
+      {
+        "scope": "baseline",
+        "field": "",
+        "requestExecuted": true,
+        "success": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "top-level",
+        "field": "inquiryId",
+        "requestExecuted": true,
+        "success": false,
+        "noImpact": false,
+        "response": {
+          "code": 500,
+          "errorMessage": "保存报价单失败网络异常，请稍后再试~",
+          "data": false
+        }
+      },
+      {
+        "scope": "top-level",
+        "field": "quoteSupplierHeaderId",
+        "requestExecuted": true,
+        "success": false,
+        "noImpact": false,
+        "response": {
+          "code": 400,
+          "errorMessage": "保存报价单失败入参校验不通过~",
+          "data": false
+        }
+      },
+      {
+        "scope": "top-level",
+        "field": "quotationSource",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "top-level",
+        "field": "supplierCompanyId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "top-level",
+        "field": "storeId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "top-level",
+        "field": "quoteUser",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "top-level",
+        "field": "saveStatus",
+        "requestExecuted": true,
+        "success": false,
+        "noImpact": false,
+        "response": {
+          "code": 400,
+          "errorMessage": "保存报价单失败入参校验不通过~",
+          "data": false
+        }
+      },
+      {
+        "scope": "top-level",
+        "field": "backUrl",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "resolveResultId",
+        "requestExecuted": true,
+        "success": false,
+        "noImpact": false,
+        "response": {
+          "code": 400,
+          "errorMessage": "保存报价单失败入参校验不通过~",
+          "data": false
+        }
+      },
+      {
+        "scope": "item",
+        "field": "partsNum",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "partsName",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "quantity",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "needPackage",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "standardName",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "categoryCode",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "standardNameCode",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "decodeSource",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "checked",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "quotedPriceItemId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "userNeedsItemId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "bargainFlag",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "oldPartsNum",
+        "requestExecuted": true,
+        "success": false,
+        "noImpact": false,
+        "response": {
+          "code": 400,
+          "errorMessage": "保存报价单失败入参校验不通过~",
+          "data": false
+        }
+      },
+      {
+        "scope": "item",
+        "field": "partsBrandId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "partsBrandName",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "attrValue",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "price",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "boxFee",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "location",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "locationName",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "distributorStoreId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "locationCountryId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "villageGeoId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "productType",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "arrivalTime",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "remark",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "afterSaleSnapshot",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "partsBrandQuality",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "sellStatus",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "productId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "recommend",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "originalAssort",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "appendQualityFlag",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "saveType",
+        "requestExecuted": true,
+        "success": false,
+        "noImpact": false,
+        "response": {
+          "code": 400,
+          "errorMessage": "保存报价单失败入参校验不通过~",
+          "data": false
+        }
+      },
+      {
+        "scope": "item",
+        "field": "whetherProductSet",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "productSetCode",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "productSetId",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "partRecommendingSuites",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "quotationResourceWebRequests",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      },
+      {
+        "scope": "item",
+        "field": "quotationProductIdentifierList",
+        "requestExecuted": true,
+        "success": true,
+        "noImpact": true,
+        "response": {
+          "code": 200,
+          "data": "DRAFT"
+        }
+      }
+    ]
+  }
+}

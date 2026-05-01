@@ -1,0 +1,63 @@
+{
+  "quotationId": "2984511773",
+  "request": {
+    "inquiryId": "B260330116833",
+    "quoteSupplierHeaderId": "2984511773",
+    "quotationSource": "PC",
+    "supplierCompanyId": "I4JOwcsNXfikbigFIMT",
+    "storeId": "WHDYST01",
+    "quoteUser": "5cbd21fa43cd690001de1091",
+    "saveStatus": "DRAFT",
+    "backUrl": "",
+    "supplierQuoteItemVoRequests": [
+      {
+        "resolveResultId": "ca661a85-1c9f-456c-bd7f-61b337726e33",
+        "partsNum": "65 76 5 B3F E41",
+        "partsName": "行人保护传感器",
+        "quantity": 1,
+        "needPackage": "N",
+        "standardName": "行人保护碰撞传感器",
+        "categoryCode": "12461",
+        "standardNameCode": "124610001",
+        "decodeSource": "MASTER_DATA_AUTO",
+        "checked": true,
+        "quotedPriceItemId": "69ca409d1d53f8000158c936",
+        "userNeedsItemId": "69ca4a4ba001e30001ceb934",
+        "bargainFlag": "N",
+        "oldPartsNum": "65 76 5 B3F E41",
+        "partsBrandId": "BMW",
+        "partsBrandName": "宝马",
+        "attrValue": "",
+        "price": 380.0,
+        "boxFee": 0.0,
+        "location": "CN_WHQKC",
+        "locationName": "武汉硚口仓",
+        "distributorStoreId": "",
+        "locationCountryId": "",
+        "villageGeoId": "",
+        "productType": "DISPATCH_GOODS",
+        "arrivalTime": 1,
+        "remark": "",
+        "afterSaleSnapshot": "[{\"key\":\"BZC0001\",\"value\":\"true\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"groupId\":6,\"innerSort\":\"\",\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"groupId\":6,\"innerSort\":\"\",\"scenarioId\":\"\"},{\"key\":\"JPL0002\",\"value\":\"10\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"groupId\":6,\"innerSort\":\"\",\"scenarioId\":\"\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"}]",
+        "partsBrandQuality": "ORIGINAL_CURRENCY",
+        "sellStatus": "DRAFT",
+        "productId": "",
+        "recommend": 0,
+        "originalAssort": 0,
+        "appendQualityFlag": "",
+        "saveType": "ADD",
+        "whetherProductSet": "",
+        "productSetCode": "",
+        "productSetId": "",
+        "partRecommendingSuites": [],
+        "quotationResourceWebRequests": [],
+        "quotationProductIdentifierList": []
+      }
+    ]
+  },
+  "response": {
+    "code": 200,
+    "data": "DRAFT"
+  },
+  "fieldProbe": null
+}

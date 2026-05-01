@@ -1,0 +1,2594 @@
+
+
+登录地址：https://www.cassmall.com/passport/login
+
+
+
+获取当前登录信息：https://www.cassmall.com/seller/_current
+{
+    "errorCode": 0,
+    "data": {
+        "userLoginId": "5cbd21fa43cd690001de1091",
+        "userLoginName": "dystls",
+        "userName": "刘松",
+        "position": "CHILD_ACCOUNT",
+        "contactNumber": "15927125123",
+        "cellphone": "15927125123",
+        "userParentId": "5cbd21fa43cd690001de1091",
+        "enabled": true,
+        "bindPhone": true,
+        "needChangePassword": false,
+        "createdStamp": 1555898874000,
+        "userParentName": "刘松",
+        "authenticated": "Y",
+        "orgType": "COMPANY",
+        "registerCompleted": true,
+        "entryApplied": false,
+        "appUser": false,
+        "joinParty": true,
+        "productStoreId": "WHDYST01"
+    }
+}
+
+
+列表查询：
+https://www.cassmall.com/inquiry/seller/quote/list/v1
+{
+    "inquiryType": "ALL",
+    "navTab": "QUOTE",
+    "onlyViewOwner": false,
+    "storeId": "ALL",
+    "inquiryId": "",
+    "statusId": "QUOTE",
+    "garageCompanyId": "",
+    "quoteUser": "5cbd21fa43cd690001de1091",
+    "quoteType": "ALL",
+    "systemQuoteReportStatus": "",
+    "quoteScope": "ALL",
+    "limitQuoteRange": false,
+    "saasGroupLabels": [
+        "ALL"
+    ],
+    "startDate": 1771913166276,
+    "endDate": 1772517966276,
+    "pageNum": 1,
+    "pageSize": 20,
+    "isHighQualityLargeOrder": ""
+}
+返回
+{
+    "code": 200,
+    "data": {
+        "quotationList": [ {
+                "id": "2946016726",
+                "inquiryId": "B26030372450",
+                "inquiryType": "COMMON_INQUIRY",
+                "inquiryStatusId": "UNQUOTE",
+                "storeId": "WHDYST01",
+                "storeName": "武汉德扬斯特汽配",
+                "sourceId": "SYSTEM_DISTRIBUTE",
+                "isAnonymous": 0,
+                "supplierCompanyId": "I4JOwcsNXfikbigFIMT",
+                "quotedCount": 0,
+                "storeServiceArea": "LOCAL",
+                "storeServiceAreaDesc": "本地",
+                "quoteUser": "system",
+                "quoteUserName": "系统",
+                "quoteType": "AUTO",
+                "inquiryContent": "右空气格,空调格,左空气格",
+                "garageCompanyLevel": "",
+                "statusId": "QUOTE",
+                "statusIdDesc": "已报价",
+                "isSimpleInquiry": false,
+                "displayModelName": "奔驰 S 320 L 2016 3.0T 手自一体 豪华型",
+                "carBrandId": "BENZ",
+                "carBrandName": "奔驰",
+                "quoteBeginDate": 1772519042000,
+                "quoteEndDate": 1772519042000,
+                "deadLine": 1772522139000,
+                "itemCount": 12,
+                "decodingItemCount": 0,
+                "unquoteItemCount": 0,
+                "unclaimedItemCount": 0,
+                "expiredItemCount": 0,
+                "quotedItemCount": 12,
+                "effectiveQuotedItemCount": 7,
+                "allOrdered": "N",
+                "dataType": "HOT",
+                "openInvoiceType": "BOTH",
+                "priceType": "WITHOUT_TAX",
+                "taxRate": 5.00,
+                "invoiceType": "BOTH",
+                "pushToGarage": "N",
+                "createdStamp": 1772519041000,
+                "lastUpdatedStamp": 1772519195000,
+                "isAccident": false,
+                "insuranceDirect": false,
+                "inquiryTags": [],
+                "quotationIdSource": "CASS_MALL",
+                "markInfo": {
+                    "needWholeQuotation": false,
+                    "crossCategory": false,
+                    "crossRegion": false
+                },
+                "encryptAddress": "PuCwJQaRXG7Zqkd8V1hoPdw8C/nY0sCCRpibK4UmAwxQFSeLfvmHN28+jOinP2VehExAKJWIahAn8T+wRwxmeBv1QAgdaS1w8YZzGwWoU5CcAmwlB3z967/zvq/2isEkKVtpiQOevDgnXeOpXOhVOW/ObgUT7sPLqt8XLyT2878U5PFEIKX9wpJnKkIUF/zfJ02Heyy8+Ivbv1+3yvICH4tOC/OmQ+MUheA5neJjdcnf2BOeX1IblhtI5qDZBRTd7RXn9IrFi3T5ppfidPfXVuKCUEyBvj2wlI+sX4nTg6t0croKnRJdrq5RKCx9kdYv7EcbCp+IKQrTghkzdmG5HTglb0gdYDZBtftRzxGbrOQOT1Wc0IBfl+KTtQ1q4HwuKjtYzLXH7QuvChPoxBetCg==",
+                "encryptInquiryUserInfos": "oJvbhu7LE7rQ3SGokL0Q7I43FylBT3+qowuDWEKggnkJNHwkwS7kAQBLASnSZ9rgC79yNxfvCjFgxwx5HdsoEM6K/NoPQ0WgMHIJEsyaCNVx/hX6hcaW0UUb1qniUwlGQAVzAK6ANQBwAmtTvc0oFzEsPBNqoC7UJGURynbmUxs="
+            }],
+        "totalElements": 1,
+        "isQuotePriceManagerUser": true,
+        "currentTab": "UNCLAIMED",
+        "unclaimedCount": 0,
+        "unquotedCount": 0,
+        "quotedCount": 2811,
+        "serviceSystemTime": 1772519263030
+    }
+}
+
+
+
+查询需求单零件匹配详情
+https://www.cassmall.com/inquiryWeb/quotation/2945973688/quoting/items
+{"isViewPage":true,"listHistoryQuoteResult":false,"onlyUnquote":false,"userNeedsItemPositiveOrder":false,"page":1,"size":50}
+{
+    "code": 200,
+    "data": {
+        "content": [
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67f90760d1f000130ec79",
+                    "quotedPriceItemId": "69a67f9568529d000121831e",
+                    "status": "OUT_OF_STOCK",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": false
+                    }
+                },
+                "storeQuoteItemResults": []
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67ed7046ec40001e0031b",
+                    "quotedPriceItemId": "69a67eddcac66a0001323407",
+                    "status": "OUT_OF_STOCK",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": false
+                    }
+                },
+                "storeQuoteItemResults": []
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67ed7046ec40001e0031c",
+                    "quotedPriceItemId": "69a67eddcac66a0001323408",
+                    "status": "OUT_OF_STOCK",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": false
+                    }
+                },
+                "storeQuoteItemResults": []
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67ed7046ec40001e0031d",
+                    "quotedPriceItemId": "69a67eddcac66a0001323409",
+                    "status": "OUT_OF_STOCK",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": false
+                    }
+                },
+                "storeQuoteItemResults": []
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67e982790500001a0cd64",
+                    "quotedPriceItemId": "69a67e9d1d53f80001c2085e",
+                    "status": "QUOTE",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": true
+                    }
+                },
+                "storeQuoteItemResults": [
+                    {
+                        "userNeedsItemId": "69a67e9f1d53f80001ecfcfa",
+                        "resolveResultId": "69a67e982790500001a0cd64",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "22532197938675957760",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "222 830 36 96-02",
+                        "partsNum": "2228303696-02",
+                        "partsName": "暖水管",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "GATES",
+                        "brandName": "盖茨",
+                        "storeServiceArea": "LOCAL",
+                        "price": 136.66,
+                        "btPrice": 130.15,
+                        "sellerBtPrice": 130.15,
+                        "sellerPrice": 136.66,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 130.15,
+                        "atSellerAndBoxFee": 136.66,
+                        "btBuyerAndBoxFee": 130.15,
+                        "atBuyerAndBoxFee": 136.66,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保12个月\",\"display\":false,\"id\":\"1927054974027132928\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "12M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保12个月",
+                                "display": false,
+                                "id": "1927054974027132928",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    },
+                    {
+                        "userNeedsItemId": "69a67e9f1d53f80001ecfcfb",
+                        "resolveResultId": "69a67e982790500001a0cd64",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "23767854704376383190",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "2228303696-99",
+                        "partsNum": "2228303696-99",
+                        "partsName": "暖风水管 三通",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "NICKERSON",
+                        "brandName": "尼克森（Nickerson）",
+                        "storeServiceArea": "LOCAL",
+                        "price": 78.80,
+                        "btPrice": 75.05,
+                        "sellerBtPrice": 75.05,
+                        "sellerPrice": 78.80,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 75.05,
+                        "atSellerAndBoxFee": 78.80,
+                        "btBuyerAndBoxFee": 75.05,
+                        "atBuyerAndBoxFee": 78.80,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"THL0001\",\"value\":\"7\",\"desc\":\"专营店7天无理由\",\"url\":\"\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"1570581392623861762\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":2,\"innerSort\":2,\"scenarioId\":\"1808756778179837953\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":false,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"QualityAssurePolicy\",\"value\":\"24M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"商家质保24个月\",\"display\":true,\"id\":\"1927054974677250048\",\"icon\":\"https://fe-static.cassmall.com/assets/images/1fe67d1f27ec5906d8c279d1990c95b1.svg\",\"title\":\"商家质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "THL0001",
+                                "value": "7",
+                                "desc": "专营店7天无理由",
+                                "url": "",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "1570581392623861762",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": false,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "QualityAssurePolicy",
+                                "value": "24M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "商家质保24个月",
+                                "display": true,
+                                "id": "1927054974677250048",
+                                "icon": "https://fe-static.cassmall.com/assets/images/1fe67d1f27ec5906d8c279d1990c95b1.svg",
+                                "title": "商家质保"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "INTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    }
+                ]
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "5cecb616-85f0-41e8-b0ea-21b8e6bc06ed",
+                    "quotedPriceItemId": "69a67e78cac66a000132253c",
+                    "status": "QUOTE",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": true
+                    }
+                },
+                "storeQuoteItemResults": [
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a7e4",
+                        "resolveResultId": "5cecb616-85f0-41e8-b0ea-21b8e6bc06ed",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "21165837463070801950",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "276 094 05 04-01",
+                        "partsNum": "2760940504-01",
+                        "partsName": "空气格",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "MAHLE",
+                        "brandName": "马勒",
+                        "storeServiceArea": "LOCAL",
+                        "price": 44.89,
+                        "btPrice": 42.75,
+                        "sellerBtPrice": 42.75,
+                        "sellerPrice": 44.89,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 42.75,
+                        "atSellerAndBoxFee": 44.89,
+                        "btBuyerAndBoxFee": 42.75,
+                        "atBuyerAndBoxFee": 44.89,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "COMMON",
+                        "afterSaleSnapshot": "[{\"key\":\"THL0001\",\"value\":\"7\",\"desc\":\"专营店7天无理由\",\"url\":\"\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"1570581392623861762\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":2,\"innerSort\":2,\"scenarioId\":\"1808696321779097601\"},{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":false,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"3M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保3个月\",\"display\":false,\"id\":\"1927054968947830784\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "THL0001",
+                                "value": "7",
+                                "desc": "专营店7天无理由",
+                                "url": "",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "1570581392623861762",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": false,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "3M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保3个月",
+                                "display": false,
+                                "id": "1927054968947830784",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    }
+                ]
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67e6c046ec40001e00056",
+                    "quotedPriceItemId": "69a67e78cac66a000132253d",
+                    "status": "OUT_OF_STOCK",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": false
+                    }
+                },
+                "storeQuoteItemResults": []
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "742e3ebe-0d08-4dcd-bdba-097c48c24c44",
+                    "quotedPriceItemId": "69a67e78cac66a000132253e",
+                    "status": "QUOTE",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": true
+                    }
+                },
+                "storeQuoteItemResults": [
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a853",
+                        "resolveResultId": "742e3ebe-0d08-4dcd-bdba-097c48c24c44",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "21165837463070801950",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "276 094 05 04-01",
+                        "partsNum": "2760940504-01",
+                        "partsName": "空气格",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "MAHLE",
+                        "brandName": "马勒",
+                        "storeServiceArea": "LOCAL",
+                        "price": 44.89,
+                        "btPrice": 42.75,
+                        "sellerBtPrice": 42.75,
+                        "sellerPrice": 44.89,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 42.75,
+                        "atSellerAndBoxFee": 44.89,
+                        "btBuyerAndBoxFee": 42.75,
+                        "atBuyerAndBoxFee": 44.89,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "COMMON",
+                        "afterSaleSnapshot": "[{\"key\":\"THL0001\",\"value\":\"7\",\"desc\":\"专营店7天无理由\",\"url\":\"\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"1570581392623861762\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":2,\"innerSort\":2,\"scenarioId\":\"1808696321779097601\"},{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":false,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"3M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保3个月\",\"display\":false,\"id\":\"1927054968947830784\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "THL0001",
+                                "value": "7",
+                                "desc": "专营店7天无理由",
+                                "url": "",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "1570581392623861762",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": false,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "3M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保3个月",
+                                "display": false,
+                                "id": "1927054968947830784",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    }
+                ]
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67e6c046ec40001e00055",
+                    "quotedPriceItemId": "69a67e78cac66a000132253f",
+                    "status": "QUOTE",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": true
+                    }
+                },
+                "storeQuoteItemResults": [
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a833",
+                        "resolveResultId": "69a67e6c046ec40001e00055",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "21213098910275133440",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "276 180 00 09-01",
+                        "partsNum": "2761800009-01",
+                        "partsName": "机油格",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "MAHLE",
+                        "brandName": "马勒",
+                        "storeServiceArea": "LOCAL",
+                        "price": 24.94,
+                        "btPrice": 23.75,
+                        "sellerBtPrice": 23.75,
+                        "sellerPrice": 24.94,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 23.75,
+                        "atSellerAndBoxFee": 24.94,
+                        "btBuyerAndBoxFee": 23.75,
+                        "atBuyerAndBoxFee": 24.94,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "COMMON",
+                        "afterSaleSnapshot": "[{\"key\":\"THL0001\",\"value\":\"7\",\"desc\":\"专营店7天无理由\",\"url\":\"\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"1570581392623861762\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":2,\"innerSort\":2,\"scenarioId\":\"1808696321779097601\"},{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":false,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"3M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保3个月\",\"display\":false,\"id\":\"1927054968947830784\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "THL0001",
+                                "value": "7",
+                                "desc": "专营店7天无理由",
+                                "url": "",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "1570581392623861762",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": false,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "3M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保3个月",
+                                "display": false,
+                                "id": "1927054968947830784",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    }
+                ]
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67e6c046ec40001e00054",
+                    "quotedPriceItemId": "69a67e78cac66a0001322540",
+                    "status": "QUOTE",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": true
+                    }
+                },
+                "storeQuoteItemResults": [
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a81c",
+                        "resolveResultId": "69a67e6c046ec40001e00054",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "21600693517864714290",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "230 830 00 84-02",
+                        "partsNum": "2308300084-02",
+                        "partsName": "阀",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "INA",
+                        "brandName": "舍弗勒-INA",
+                        "storeServiceArea": "LOCAL",
+                        "price": 167.58,
+                        "btPrice": 159.60,
+                        "sellerBtPrice": 159.60,
+                        "sellerPrice": 167.58,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 159.60,
+                        "atSellerAndBoxFee": 167.58,
+                        "btBuyerAndBoxFee": 159.60,
+                        "atBuyerAndBoxFee": 167.58,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保12个月\",\"display\":false,\"id\":\"1927054974027132928\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "12M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保12个月",
+                                "display": false,
+                                "id": "1927054974027132928",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    },
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a81d",
+                        "resolveResultId": "69a67e6c046ec40001e00054",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "23641100326487326730",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "230 830 00 84-05",
+                        "partsNum": "2308300084-05",
+                        "partsName": "阀",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "HELLA",
+                        "brandName": "海拉",
+                        "storeServiceArea": "LOCAL",
+                        "price": 178.55,
+                        "btPrice": 170.05,
+                        "sellerBtPrice": 170.05,
+                        "sellerPrice": 178.55,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 170.05,
+                        "atSellerAndBoxFee": 178.55,
+                        "btBuyerAndBoxFee": 170.05,
+                        "atBuyerAndBoxFee": 178.55,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保12个月\",\"display\":false,\"id\":\"1927054974027132928\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "12M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保12个月",
+                                "display": false,
+                                "id": "1927054974027132928",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    },
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a81e",
+                        "resolveResultId": "69a67e6c046ec40001e00054",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "23767854964161250480",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "2308300084-99",
+                        "partsNum": "2308300084-99",
+                        "partsName": "暖水阀",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "NICKERSON",
+                        "brandName": "尼克森（Nickerson）",
+                        "storeServiceArea": "LOCAL",
+                        "price": 115.71,
+                        "btPrice": 110.20,
+                        "sellerBtPrice": 110.20,
+                        "sellerPrice": 115.71,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 110.20,
+                        "atSellerAndBoxFee": 115.71,
+                        "btBuyerAndBoxFee": 110.20,
+                        "atBuyerAndBoxFee": 115.71,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"THL0001\",\"value\":\"7\",\"desc\":\"专营店7天无理由\",\"url\":\"\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"1570581392623861762\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":2,\"innerSort\":2,\"scenarioId\":\"1808756778179837953\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":false,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"QualityAssurePolicy\",\"value\":\"24M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"商家质保24个月\",\"display\":true,\"id\":\"1927054974677250048\",\"icon\":\"https://fe-static.cassmall.com/assets/images/1fe67d1f27ec5906d8c279d1990c95b1.svg\",\"title\":\"商家质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "THL0001",
+                                "value": "7",
+                                "desc": "专营店7天无理由",
+                                "url": "",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "1570581392623861762",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": false,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "QualityAssurePolicy",
+                                "value": "24M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "商家质保24个月",
+                                "display": true,
+                                "id": "1927054974677250048",
+                                "icon": "https://fe-static.cassmall.com/assets/images/1fe67d1f27ec5906d8c279d1990c95b1.svg",
+                                "title": "商家质保"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "INTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    }
+                ]
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67e6c046ec40001e00053",
+                    "quotedPriceItemId": "69a67e78cac66a0001322541",
+                    "status": "QUOTE",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": true
+                    }
+                },
+                "storeQuoteItemResults": [
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a807",
+                        "resolveResultId": "69a67e6c046ec40001e00053",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "21465811265086709770",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "000 982 06 17-02",
+                        "partsNum": "0009820617-02",
+                        "partsName": "电磁阀",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "INA",
+                        "brandName": "舍弗勒-INA",
+                        "storeServiceArea": "LOCAL",
+                        "price": 188.53,
+                        "btPrice": 179.55,
+                        "sellerBtPrice": 179.55,
+                        "sellerPrice": 188.53,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 179.55,
+                        "atSellerAndBoxFee": 188.53,
+                        "btBuyerAndBoxFee": 179.55,
+                        "atBuyerAndBoxFee": 188.53,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保12个月\",\"display\":false,\"id\":\"1927054974027132928\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "12M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保12个月",
+                                "display": false,
+                                "id": "1927054974027132928",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    },
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a808",
+                        "resolveResultId": "69a67e6c046ec40001e00053",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "22365348526740643860",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "000 982 06 17-01",
+                        "partsNum": "0009820617-01",
+                        "partsName": "电磁阀",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "MAHLE",
+                        "brandName": "马勒",
+                        "storeServiceArea": "LOCAL",
+                        "price": 241.40,
+                        "btPrice": 229.90,
+                        "sellerBtPrice": 229.90,
+                        "sellerPrice": 241.40,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 229.90,
+                        "atSellerAndBoxFee": 241.40,
+                        "btBuyerAndBoxFee": 229.90,
+                        "atBuyerAndBoxFee": 241.40,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保12个月\",\"display\":false,\"id\":\"1927054974027132928\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "12M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保12个月",
+                                "display": false,
+                                "id": "1927054974027132928",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    },
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a809",
+                        "resolveResultId": "69a67e6c046ec40001e00053",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "22440594335362294660",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "000 982 06 17-03",
+                        "partsNum": "0009820617-03",
+                        "partsName": "电磁阀",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "SOGEFIPRO",
+                        "brandName": "索格菲",
+                        "storeServiceArea": "LOCAL",
+                        "price": 230.42,
+                        "btPrice": 219.45,
+                        "sellerBtPrice": 219.45,
+                        "sellerPrice": 230.42,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 219.45,
+                        "atSellerAndBoxFee": 230.42,
+                        "btBuyerAndBoxFee": 219.45,
+                        "atBuyerAndBoxFee": 230.42,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保12个月\",\"display\":false,\"id\":\"1927054974027132928\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "12M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保12个月",
+                                "display": false,
+                                "id": "1927054974027132928",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    },
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a80a",
+                        "resolveResultId": "69a67e6c046ec40001e00053",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "23676483480507105850",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "000 982 06 17-04",
+                        "partsNum": "0009820617-04",
+                        "partsName": "电磁阀",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "WAHLER",
+                        "brandName": "WAHLER（瓦勒）",
+                        "storeServiceArea": "LOCAL",
+                        "price": 204.49,
+                        "btPrice": 194.75,
+                        "sellerBtPrice": 194.75,
+                        "sellerPrice": 204.49,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 194.75,
+                        "atSellerAndBoxFee": 204.49,
+                        "btBuyerAndBoxFee": 194.75,
+                        "atBuyerAndBoxFee": 204.49,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保12个月\",\"display\":false,\"id\":\"1927054974027132928\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"QualityAssurePolicy\",\"value\":\"36M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"商家质保36个月\",\"display\":true,\"id\":\"1927054974677250051\",\"icon\":\"https://fe-static.cassmall.com/assets/images/1fe67d1f27ec5906d8c279d1990c95b1.svg\",\"title\":\"商家质保\",\"groupId\":6,\"innerSort\":1,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "12M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保12个月",
+                                "display": false,
+                                "id": "1927054974027132928",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "QualityAssurePolicy",
+                                "value": "36M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "商家质保36个月",
+                                "display": true,
+                                "id": "1927054974677250051",
+                                "icon": "https://fe-static.cassmall.com/assets/images/1fe67d1f27ec5906d8c279d1990c95b1.svg",
+                                "title": "商家质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    },
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a80b",
+                        "resolveResultId": "69a67e6c046ec40001e00053",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "24047074345737175240",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "000 982 06 17-05",
+                        "partsNum": "0009820617-05",
+                        "partsName": "电磁阀",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "BOSCH",
+                        "brandName": "博世",
+                        "storeServiceArea": "LOCAL",
+                        "price": 712.22,
+                        "btPrice": 678.30,
+                        "sellerBtPrice": 678.30,
+                        "sellerPrice": 712.22,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 678.30,
+                        "atSellerAndBoxFee": 712.22,
+                        "btBuyerAndBoxFee": 678.30,
+                        "atBuyerAndBoxFee": 712.22,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"JPL0002\",\"value\":\"10\",\"desc\":\"假一赔三\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":true,\"id\":\"1984141261701160962\",\"icon\":\"\",\"title\":\"假一赔十\",\"groupId\":2,\"innerSort\":12,\"scenarioId\":\"1984161093630504962\"},{\"key\":\"PCC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"配套资质范围\",\"display\":false,\"id\":\"1904469166013997058\",\"icon\":\"\",\"title\":\"配套资质范围\",\"groupId\":5,\"innerSort\":2,\"scenarioId\":\"1904470811794657281\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ZCSP0002\",\"value\":\"true\",\"desc\":\"灰度环境验证\",\"url\":\"\",\"displayName\":\"装车速赔服务\",\"display\":true,\"id\":\"1770051207835410433\",\"icon\":\"\",\"title\":\"装车速赔服务\",\"groupId\":6,\"innerSort\":4,\"scenarioId\":\"1773903441265344516\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CassQualityAssurePolicy\",\"value\":\"12M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"开思质保12个月\",\"display\":false,\"id\":\"1927054974027132928\",\"icon\":\"https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg\",\"title\":\"开思质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"CompensationPolicy\",\"value\":\"10\",\"url\":\"/mall/help-center#/detail/5e1c25a7d079e100240d5fa9\",\"displayName\":\"假一赔十\",\"display\":false,\"id\":\"1927054975709048832\",\"icon\":\"https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg\",\"title\":\"假一赔十\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "JPL0002",
+                                "value": "10",
+                                "desc": "假一赔三",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": true,
+                                "id": "1984141261701160962",
+                                "icon": "",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "PCC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "配套资质范围",
+                                "display": false,
+                                "id": "1904469166013997058",
+                                "icon": "",
+                                "title": "配套资质范围"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ZCSP0002",
+                                "value": "true",
+                                "desc": "灰度环境验证",
+                                "url": "",
+                                "displayName": "装车速赔服务",
+                                "display": true,
+                                "id": "1770051207835410433",
+                                "icon": "",
+                                "title": "装车速赔服务"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "CassQualityAssurePolicy",
+                                "value": "12M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "开思质保12个月",
+                                "display": false,
+                                "id": "1927054974027132928",
+                                "icon": "https://fe-static.cassmall.com/assets/images/2dc4f1b71047a68b7dc97af0906703ff.svg",
+                                "title": "开思质保"
+                            },
+                            {
+                                "key": "CompensationPolicy",
+                                "value": "10",
+                                "url": "/mall/help-center#/detail/5e1c25a7d079e100240d5fa9",
+                                "displayName": "假一赔十",
+                                "display": false,
+                                "id": "1927054975709048832",
+                                "icon": "https://fe-static.cassmall.com/assets/images/f703554020a277f4dd9fb19887791225.svg",
+                                "title": "假一赔十"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "EXTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    }
+                ]
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "69a67e6c046ec40001e00052",
+                    "quotedPriceItemId": "69a67e78cac66a0001322542",
+                    "status": "QUOTE",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": true
+                    }
+                },
+                "storeQuoteItemResults": [
+                    {
+                        "userNeedsItemId": "69a67e7bcac66a000130a7f1",
+                        "resolveResultId": "69a67e6c046ec40001e00052",
+                        "storeId": "WHDYST01",
+                        "inquiryId": "B26030372450",
+                        "productId": "23767856706831443170",
+                        "productType": "FINISHED_GOODS",
+                        "oldPartsNum": "2228300196-99",
+                        "partsNum": "2228300196-99",
+                        "partsName": "暖风软管",
+                        "partType": "BRAND_PARTS",
+                        "brandId": "NICKERSON",
+                        "brandName": "尼克森（Nickerson）",
+                        "storeServiceArea": "LOCAL",
+                        "price": 62.84,
+                        "btPrice": 59.85,
+                        "sellerBtPrice": 59.85,
+                        "sellerPrice": 62.84,
+                        "btBoxFee": 0.00,
+                        "atBoxFee": 0.00,
+                        "btSellerAndBoxFee": 59.85,
+                        "atSellerAndBoxFee": 62.84,
+                        "btBuyerAndBoxFee": 59.85,
+                        "atBuyerAndBoxFee": 62.84,
+                        "quantity": 1,
+                        "remark": "",
+                        "sellerStatus": "SALABLE",
+                        "source": "AUTO",
+                        "createdBy": "system",
+                        "arrivalTime": 0,
+                        "location": "CN_WHQKC",
+                        "locationName": "武汉硚口仓",
+                        "sellType": "",
+                        "afterSaleSnapshot": "[{\"key\":\"THL0001\",\"value\":\"7\",\"desc\":\"专营店7天无理由\",\"url\":\"\",\"displayName\":\"7天无理由退货\",\"display\":true,\"id\":\"1570581392623861762\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":2,\"innerSort\":2,\"scenarioId\":\"1808756778179837953\"},{\"key\":\"BZC0001\",\"value\":\"true\",\"desc\":\"\",\"url\":\"\",\"displayName\":\"保装车\",\"display\":true,\"id\":\"1692728146474762242\",\"icon\":\"\",\"title\":\"保装车\",\"groupId\":6,\"innerSort\":2,\"scenarioId\":\"1808690101405470722\"},{\"key\":\"ReturnWithoutReasonPolicy\",\"value\":\"7\",\"url\":\"/mall/help-center#/detail/62d675eafcba1500293bc87a\",\"displayName\":\"7天无理由退货\",\"display\":false,\"id\":\"20231109001\",\"icon\":\"\",\"title\":\"7天无理由退货\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"QualityAssurePolicy\",\"value\":\"24M\",\"url\":\"/mall/help-center#/detail/5e1c26df553e3200251f06c8\",\"displayName\":\"商家质保24个月\",\"display\":true,\"id\":\"1927054974677250048\",\"icon\":\"https://fe-static.cassmall.com/assets/images/1fe67d1f27ec5906d8c279d1990c95b1.svg\",\"title\":\"商家质保\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"InstallAssurePolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"保装车\",\"display\":false,\"id\":\"1927054975390281728\",\"icon\":\"https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg\",\"title\":\"保装车\",\"groupId\":6,\"scenarioId\":\"\"},{\"key\":\"TechnicalSupportPolicy\",\"value\":\"true\",\"url\":\"/mall/help-center#/detail/5e1c280b553e3200251f06cf\",\"displayName\":\"技术支持\",\"display\":true,\"id\":\"1927054975310589952\",\"icon\":\"https://m.cassmall.com/assets/aftersale_policy_store/technology.png\",\"title\":\"技术支持\",\"groupId\":6,\"scenarioId\":\"\"}]",
+                        "afterSalePoliciesInfos": [
+                            {
+                                "key": "THL0001",
+                                "value": "7",
+                                "desc": "专营店7天无理由",
+                                "url": "",
+                                "displayName": "7天无理由退货",
+                                "display": true,
+                                "id": "1570581392623861762",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "BZC0001",
+                                "value": "true",
+                                "desc": "",
+                                "url": "",
+                                "displayName": "保装车",
+                                "display": true,
+                                "id": "1692728146474762242",
+                                "icon": "",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "ReturnWithoutReasonPolicy",
+                                "value": "7",
+                                "url": "/mall/help-center#/detail/62d675eafcba1500293bc87a",
+                                "displayName": "7天无理由退货",
+                                "display": false,
+                                "id": "20231109001",
+                                "icon": "",
+                                "title": "7天无理由退货"
+                            },
+                            {
+                                "key": "QualityAssurePolicy",
+                                "value": "24M",
+                                "url": "/mall/help-center#/detail/5e1c26df553e3200251f06c8",
+                                "displayName": "商家质保24个月",
+                                "display": true,
+                                "id": "1927054974677250048",
+                                "icon": "https://fe-static.cassmall.com/assets/images/1fe67d1f27ec5906d8c279d1990c95b1.svg",
+                                "title": "商家质保"
+                            },
+                            {
+                                "key": "InstallAssurePolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "保装车",
+                                "display": false,
+                                "id": "1927054975390281728",
+                                "icon": "https://fe-static.cassmall.com/assets/images/5862d9609973d97be865de55a8988795.svg",
+                                "title": "保装车"
+                            },
+                            {
+                                "key": "TechnicalSupportPolicy",
+                                "value": "true",
+                                "url": "/mall/help-center#/detail/5e1c280b553e3200251f06cf",
+                                "displayName": "技术支持",
+                                "display": true,
+                                "id": "1927054975310589952",
+                                "icon": "https://m.cassmall.com/assets/aftersale_policy_store/technology.png",
+                                "title": "技术支持"
+                            }
+                        ],
+                        "taxRate": 5.00,
+                        "openInvoiceType": "BOTH",
+                        "partsBrandQuality": "INTERNAL_BRAND",
+                        "needPackage": "",
+                        "originalAssort": 0,
+                        "recommend": 0,
+                        "quotationResources": [],
+                        "quotationDescriptions": [],
+                        "orderIds": [],
+                        "functionAuthority": {
+                            "canModifyQuoteResult": false
+                        }
+                    }
+                ]
+            },
+            {
+                "storeResolveItem": {
+                    "resolveResultId": "5a410eda-cc1c-456f-a964-4b472bdd7641",
+                    "quotedPriceItemId": "69a67e78cac66a0001322543",
+                    "status": "OUT_OF_STOCK",
+                    "source": "AUTO",
+                    "functionAuthority": {
+                        "canAddQuoteResult": false
+                    }
+                },
+                "storeQuoteItemResults": []
+            }
+        ],
+        "page": 1,
+        "size": 50,
+        "total": "13",
+        "userReceivedItemCount": "13"
+    }
+}
+
+查询详情
+https://www.cassmall.com/inquiryWeb/quotation/resolveitems/detail
+{
+    "inquiryId": "B26030372450",
+    "storeId": "WHDYST01",
+    "resolveResultIds": [
+        "69a67f90760d1f000130ec79",
+        "69a67ed7046ec40001e0031b",
+        "69a67ed7046ec40001e0031c",
+        "69a67ed7046ec40001e0031d",
+        "69a67e982790500001a0cd64",
+        "5cecb616-85f0-41e8-b0ea-21b8e6bc06ed",
+        "69a67e6c046ec40001e00056",
+        "742e3ebe-0d08-4dcd-bdba-097c48c24c44",
+        "69a67e6c046ec40001e00055",
+        "69a67e6c046ec40001e00054",
+        "69a67e6c046ec40001e00053",
+        "69a67e6c046ec40001e00052",
+        "5a410eda-cc1c-456f-a964-4b472bdd7641"
+    ]
+}
+返回
+{
+    "code": 200,
+    "data": [
+        {
+            "resolveResultId": "5a410eda-cc1c-456f-a964-4b472bdd7641",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A 000 982 93 08",
+            "partsName": "辅助电池",
+            "quantity": 1,
+            "competitivePrice": 1072.43,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "107490001",
+            "categoryCode": "10749",
+            "inquiryItem": {
+                "originalNeedId": "2405023224445521923",
+                "originalNeedName": "辅助电池",
+                "originalNeedRemark": "",
+                "source": "MANUAL_ENTRY"
+            },
+            "createdBy": "system",
+            "createdStamp": 1772519025000,
+            "lastUpdatedStamp": 1772519025000
+        },
+        {
+            "resolveResultId": "5cecb616-85f0-41e8-b0ea-21b8e6bc06ed",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A 276 094 05 04",
+            "partsName": "右空气格",
+            "quantity": 1,
+            "competitivePrice": 392.63,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "111080003",
+            "categoryCode": "11108",
+            "inquiryItem": {
+                "originalNeedId": "2405023224445521926",
+                "originalNeedName": "空气格",
+                "originalNeedRemark": "",
+                "source": "MANUAL_ENTRY"
+            },
+            "createdBy": "system",
+            "createdStamp": 1772519025000,
+            "lastUpdatedStamp": 1772519025000
+        },
+        {
+            "resolveResultId": "69a67e6c046ec40001e00052",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A2228300196",
+            "partsName": "暖水管",
+            "quantity": 1,
+            "competitivePrice": 262.71,
+            "remark": "发动机到仓壁水管，请核对实物购买",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "113490002",
+            "categoryCode": "11349",
+            "inquiryItem": {
+                "originalNeedId": "2405023224445521920",
+                "originalNeedName": "暖水管",
+                "originalNeedRemark": "",
+                "source": "MANUAL_ENTRY"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519020000,
+            "lastUpdatedStamp": 1772519020000
+        },
+        {
+            "resolveResultId": "69a67e6c046ec40001e00053",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A0009820617",
+            "partsName": "后暖水阀",
+            "quantity": 1,
+            "competitivePrice": 1776.13,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "113470003",
+            "categoryCode": "11347",
+            "inquiryItem": {
+                "originalNeedId": "2405023224445521921",
+                "originalNeedName": "后暖水阀",
+                "originalNeedRemark": "",
+                "source": "MANUAL_ENTRY"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519020000,
+            "lastUpdatedStamp": 1772519020000
+        },
+        {
+            "resolveResultId": "69a67e6c046ec40001e00054",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A2308300084",
+            "partsName": "前暖水阀",
+            "quantity": 1,
+            "competitivePrice": 811.18,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "113470002",
+            "categoryCode": "11347",
+            "inquiryItem": {
+                "originalNeedId": "2405023224445521922",
+                "originalNeedName": "前暖水阀",
+                "originalNeedRemark": "",
+                "source": "MANUAL_ENTRY"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519020000,
+            "lastUpdatedStamp": 1772519020000
+        },
+        {
+            "resolveResultId": "69a67e6c046ec40001e00055",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A2761800009",
+            "partsName": "机油格",
+            "quantity": 1,
+            "competitivePrice": 164.8,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "109820001",
+            "categoryCode": "10982",
+            "inquiryItem": {
+                "originalNeedId": "2405023224445521924",
+                "originalNeedName": "机油格",
+                "originalNeedRemark": "",
+                "source": "MANUAL_ENTRY"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519020000,
+            "lastUpdatedStamp": 1772519020000
+        },
+        {
+            "resolveResultId": "69a67e6c046ec40001e00056",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A2228300418",
+            "partsName": "空调格",
+            "quantity": 1,
+            "competitivePrice": 1131.28,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "111330001",
+            "categoryCode": "11133",
+            "inquiryItem": {
+                "originalNeedId": "2405023224445521925",
+                "originalNeedName": "空调格",
+                "originalNeedRemark": "",
+                "source": "MANUAL_ENTRY"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519020000,
+            "lastUpdatedStamp": 1772519020000
+        },
+        {
+            "resolveResultId": "69a67e982790500001a0cd64",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A 222 830 36 96",
+            "partsName": "暖水管",
+            "quantity": 1,
+            "competitivePrice": 642.25,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "113490002",
+            "categoryCode": "11349",
+            "inquiryItem": {
+                "originalNeedId": "69a67e9899a9ff0001b72db7",
+                "originalNeedName": "A2228303696",
+                "originalNeedRemark": "",
+                "source": "USER_ADD"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519065000,
+            "lastUpdatedStamp": 1772519065000
+        },
+        {
+            "resolveResultId": "69a67ed7046ec40001e0031b",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A 222 830 30 96",
+            "partsName": "水管",
+            "quantity": 1,
+            "competitivePrice": 271.95,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "116340001",
+            "categoryCode": "11634",
+            "inquiryItem": {
+                "originalNeedId": "69a67ed726e582000143c3b1",
+                "originalNeedName": "A2228303096",
+                "originalNeedRemark": "",
+                "source": "USER_ADD"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519128000,
+            "lastUpdatedStamp": 1772519128000
+        },
+        {
+            "resolveResultId": "69a67ed7046ec40001e0031c",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A 222 830 31 96",
+            "partsName": "水管",
+            "quantity": 1,
+            "competitivePrice": 294.74,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "116340001",
+            "categoryCode": "11634",
+            "inquiryItem": {
+                "originalNeedId": "69a67ed726e582000143c3b2",
+                "originalNeedName": "A2228303196",
+                "originalNeedRemark": "",
+                "source": "USER_ADD"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519128000,
+            "lastUpdatedStamp": 1772519128000
+        },
+        {
+            "resolveResultId": "69a67ed7046ec40001e0031d",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A 222 830 37 96",
+            "partsName": "水管",
+            "quantity": 1,
+            "competitivePrice": 271.95,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "116340001",
+            "categoryCode": "11634",
+            "inquiryItem": {
+                "originalNeedId": "69a67ed726e582000143c3b3",
+                "originalNeedName": "A2228303796",
+                "originalNeedRemark": "",
+                "source": "USER_ADD"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519128000,
+            "lastUpdatedStamp": 1772519128000
+        },
+        {
+            "resolveResultId": "69a67f90760d1f000130ec79",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A 222 830 02 16",
+            "partsName": "水管",
+            "quantity": 1,
+            "competitivePrice": 1332.61,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "116340001",
+            "categoryCode": "11634",
+            "inquiryItem": {
+                "originalNeedId": "69a67f9099a9ff0001b72fa2",
+                "originalNeedName": "A2228300216",
+                "originalNeedRemark": "",
+                "source": "USER_ADD"
+            },
+            "createdBy": "648a85129458ae00016743c9",
+            "createdStamp": 1772519313000,
+            "lastUpdatedStamp": 1772519313000
+        },
+        {
+            "resolveResultId": "742e3ebe-0d08-4dcd-bdba-097c48c24c44",
+            "inquiryId": "B26030372450",
+            "statusId": "UNQUOTE",
+            "quoteStatusId": "QUOTE",
+            "partsNum": "A 276 094 05 04",
+            "partsName": "左空气格",
+            "quantity": 1,
+            "competitivePrice": 392.63,
+            "remark": "",
+            "source": "AUTO",
+            "decodeSource": "MASTER_DATA_AUTO",
+            "standardNameCode": "111080002",
+            "categoryCode": "11108",
+            "inquiryItem": {
+                "originalNeedId": "2405023224445521926",
+                "originalNeedName": "空气格",
+                "originalNeedRemark": "",
+                "source": "MANUAL_ENTRY"
+            },
+            "createdBy": "system",
+            "createdStamp": 1772519025000,
+            "lastUpdatedStamp": 1772519025000
+        }
+    ]
+}
